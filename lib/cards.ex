@@ -31,7 +31,6 @@ defmodule Cards do
       "Two of Diamonds", "Three of Diamonds", "Four of Diamonds", "Five of Diamonds"]
       iex> Cards.contains?(deck, "Ace of Spades")
       true
-      
   """
   def contains?(deck, card) do
     Enum.member?(deck, card)
